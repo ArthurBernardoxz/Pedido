@@ -1,0 +1,72 @@
+body {
+    background-image: url('imgs/foto_pao.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 36px;
+    color: red;
+    text-shadow: 4px 4px white;
+}
+
+.options {
+    margin-top: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    margin: 200px auto;
+    border-radius: 5px;
+    position: relative;
+}
+
+.close {
+    color: #888;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #000;
+}
+
+.popup p {
+    font-size: 18px;
+    color: #ff0066;
+    margin-top: 20px;
+}
